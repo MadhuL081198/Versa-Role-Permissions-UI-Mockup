@@ -1,0 +1,41 @@
+.Permissions-View-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.Permissions-View-Item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    font-family: 'Roboto';
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+.Permissions-View-Dropdown {
+    font-size: 24px;
+    font-family: 'Roboto';
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 100px;
+    border-radius: 5px;
+    border-color: grey;
+}
+
+.Permissions-View-Add-Button {
+    background-color: #3390FF;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 15px;
+    font-weight: bold;
+}
